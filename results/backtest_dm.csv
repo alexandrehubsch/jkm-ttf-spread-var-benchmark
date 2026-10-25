@@ -1,0 +1,85 @@
+Sample,,A,B,Case,Mean diff,DM,p
+Full,0,EWMA-FHS,EWMA,1% long,-0.000603,-0.254346,0.799228
+Full,1,EWMA-FHS,EWMA,1% short,0.000200,0.438207,0.661236
+Full,2,EWMA-FHS,EWMA,5% long,0.000146,0.062253,0.950361
+Full,3,EWMA-FHS,EWMA,5% short,0.000262,0.464111,0.642568
+Full,4,MS-OU constant vol.,EWMA,1% long,0.009136,2.904037,0.003684
+Full,5,MS-OU constant vol.,EWMA,1% short,0.009960,2.501263,0.012375
+Full,6,MS-OU constant vol.,EWMA,5% long,0.009516,3.346393,0.000819
+Full,7,MS-OU constant vol.,EWMA,5% short,0.012695,2.832410,0.004620
+Full,8,MS-OU level vol.,EWMA,1% long,-0.002698,-1.123993,0.261016
+Full,9,MS-OU level vol.,EWMA,1% short,0.001073,1.526799,0.126811
+Full,10,MS-OU level vol.,EWMA,5% long,-0.003640,-1.651091,0.098720
+Full,11,MS-OU level vol.,EWMA,5% short,0.000336,0.174303,0.861627
+Full,12,MS-OU EWMA vol.,EWMA,1% long,-0.003807,-1.945451,0.051721
+Full,13,MS-OU EWMA vol.,EWMA,1% short,0.000678,1.175288,0.239880
+Full,14,MS-OU EWMA vol.,EWMA,5% long,-0.002352,-1.859884,0.062902
+Full,15,MS-OU EWMA vol.,EWMA,5% short,-0.001347,-1.195464,0.231906
+Full,16,MS-OU level vol.,EWMA-FHS,1% long,-0.002095,-1.112255,0.266029
+Full,17,MS-OU level vol.,EWMA-FHS,1% short,0.000873,1.271551,0.203533
+Full,18,MS-OU level vol.,EWMA-FHS,5% long,-0.003786,-1.336757,0.181302
+Full,19,MS-OU level vol.,EWMA-FHS,5% short,0.000074,0.037685,0.969938
+Full,20,MS-OU EWMA vol.,EWMA-FHS,1% long,-0.003205,-2.601958,0.009269
+Full,21,MS-OU EWMA vol.,EWMA-FHS,1% short,0.000477,1.050586,0.293449
+Full,22,MS-OU EWMA vol.,EWMA-FHS,5% long,-0.002497,-1.193633,0.232622
+Full,23,MS-OU EWMA vol.,EWMA-FHS,5% short,-0.001609,-1.549323,0.121304
+Full,24,MS-OU EWMA vol.,MS-OU level vol.,1% long,-0.001109,-0.795783,0.426158
+Full,25,MS-OU EWMA vol.,MS-OU level vol.,1% short,-0.000396,-0.493813,0.621438
+Full,26,MS-OU EWMA vol.,MS-OU level vol.,5% long,0.001289,0.733614,0.463184
+Full,27,MS-OU EWMA vol.,MS-OU level vol.,5% short,-0.001683,-0.971944,0.331079
+Stress,0,EWMA-FHS,EWMA,1% long,-0.007128,-0.535134,0.592557
+Stress,1,EWMA-FHS,EWMA,1% short,0.001958,1.261005,0.207307
+Stress,2,EWMA-FHS,EWMA,5% long,-0.003311,-0.248059,0.804089
+Stress,3,EWMA-FHS,EWMA,5% short,0.000345,0.135970,0.891845
+Stress,4,MS-OU constant vol.,EWMA,1% long,0.036203,2.195341,0.028139
+Stress,5,MS-OU constant vol.,EWMA,1% short,0.038481,1.894692,0.058133
+Stress,6,MS-OU constant vol.,EWMA,5% long,0.021793,1.492562,0.135552
+Stress,7,MS-OU constant vol.,EWMA,5% short,0.043039,1.864828,0.062206
+Stress,8,MS-OU level vol.,EWMA,1% long,-0.017568,-1.307963,0.190886
+Stress,9,MS-OU level vol.,EWMA,1% short,0.000106,0.045571,0.963652
+Stress,10,MS-OU level vol.,EWMA,5% long,-0.019994,-1.638805,0.101254
+Stress,11,MS-OU level vol.,EWMA,5% short,-0.005205,-0.537470,0.590943
+Stress,12,MS-OU EWMA vol.,EWMA,1% long,-0.020742,-1.959031,0.050109
+Stress,13,MS-OU EWMA vol.,EWMA,1% short,0.006646,3.573169,0.000353
+Stress,14,MS-OU EWMA vol.,EWMA,5% long,-0.012162,-1.705589,0.088085
+Stress,15,MS-OU EWMA vol.,EWMA,5% short,-0.003631,-0.600284,0.548317
+Stress,16,MS-OU level vol.,EWMA-FHS,1% long,-0.010440,-0.985382,0.324436
+Stress,17,MS-OU level vol.,EWMA-FHS,1% short,-0.001851,-1.006443,0.314202
+Stress,18,MS-OU level vol.,EWMA-FHS,5% long,-0.016683,-1.049315,0.294033
+Stress,19,MS-OU level vol.,EWMA-FHS,5% short,-0.005550,-0.572309,0.567113
+Stress,20,MS-OU EWMA vol.,EWMA-FHS,1% long,-0.013614,-2.249652,0.024471
+Stress,21,MS-OU EWMA vol.,EWMA-FHS,1% short,0.004688,3.504497,0.000457
+Stress,22,MS-OU EWMA vol.,EWMA-FHS,5% long,-0.008851,-0.752569,0.451709
+Stress,23,MS-OU EWMA vol.,EWMA-FHS,5% short,-0.003975,-0.732521,0.463851
+Stress,24,MS-OU EWMA vol.,MS-OU level vol.,1% long,-0.003175,-0.419235,0.675044
+Stress,25,MS-OU EWMA vol.,MS-OU level vol.,1% short,0.006540,3.848381,0.000119
+Stress,26,MS-OU EWMA vol.,MS-OU level vol.,5% long,0.007832,0.840177,0.400809
+Stress,27,MS-OU EWMA vol.,MS-OU level vol.,5% short,0.001575,0.186569,0.851998
+Non-stress,0,EWMA-FHS,EWMA,1% long,0.000788,3.679961,0.000233
+Non-stress,1,EWMA-FHS,EWMA,1% short,-0.000174,-0.395113,0.692759
+Non-stress,2,EWMA-FHS,EWMA,5% long,0.000882,2.466155,0.013657
+Non-stress,3,EWMA-FHS,EWMA,5% short,0.000244,0.591106,0.554450
+Non-stress,4,MS-OU constant vol.,EWMA,1% long,0.003368,4.367685,0.000013
+Non-stress,5,MS-OU constant vol.,EWMA,1% short,0.003881,2.608005,0.009107
+Non-stress,6,MS-OU constant vol.,EWMA,5% long,0.006900,4.917209,0.000001
+Non-stress,7,MS-OU constant vol.,EWMA,5% short,0.006228,3.872273,0.000108
+Non-stress,8,MS-OU level vol.,EWMA,1% long,0.000471,1.787547,0.073849
+Non-stress,9,MS-OU level vol.,EWMA,1% short,0.001279,1.873103,0.061054
+Non-stress,10,MS-OU level vol.,EWMA,5% long,-0.000155,-0.235447,0.813862
+Non-stress,11,MS-OU level vol.,EWMA,5% short,0.001517,1.562832,0.118092
+Non-stress,12,MS-OU EWMA vol.,EWMA,1% long,-0.000198,-0.345613,0.729634
+Non-stress,13,MS-OU EWMA vol.,EWMA,1% short,-0.000594,-1.136152,0.255893
+Non-stress,14,MS-OU EWMA vol.,EWMA,5% long,-0.000261,-0.663931,0.506734
+Non-stress,15,MS-OU EWMA vol.,EWMA,5% short,-0.000861,-1.544432,0.122484
+Non-stress,16,MS-OU level vol.,EWMA-FHS,1% long,-0.000317,-0.815052,0.415042
+Non-stress,17,MS-OU level vol.,EWMA-FHS,1% short,0.001454,2.041279,0.041223
+Non-stress,18,MS-OU level vol.,EWMA-FHS,5% long,-0.001037,-1.164733,0.244127
+Non-stress,19,MS-OU level vol.,EWMA-FHS,5% short,0.001273,1.218930,0.222871
+Non-stress,20,MS-OU EWMA vol.,EWMA-FHS,1% long,-0.000986,-1.621308,0.104952
+Non-stress,21,MS-OU EWMA vol.,EWMA-FHS,1% short,-0.000420,-0.985917,0.324174
+Non-stress,22,MS-OU EWMA vol.,EWMA-FHS,5% long,-0.001143,-1.991455,0.046431
+Non-stress,23,MS-OU EWMA vol.,EWMA-FHS,5% short,-0.001105,-2.055347,0.039845
+Non-stress,24,MS-OU EWMA vol.,MS-OU level vol.,1% long,-0.000669,-1.126845,0.259808
+Non-stress,25,MS-OU EWMA vol.,MS-OU level vol.,1% short,-0.001874,-2.188482,0.028635
+Non-stress,26,MS-OU EWMA vol.,MS-OU level vol.,5% long,-0.000106,-0.149086,0.881486
+Non-stress,27,MS-OU EWMA vol.,MS-OU level vol.,5% short,-0.002378,-2.257897,0.023952

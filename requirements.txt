@@ -1,0 +1,7 @@
+numpy==2.4.1
+pandas==2.3.3
+scipy==1.17.0
+statsmodels==0.15.0
+matplotlib==3.10.8
+pytest==9.1.1
+# databento==0.87.0  # only for 00_download_databento.py
