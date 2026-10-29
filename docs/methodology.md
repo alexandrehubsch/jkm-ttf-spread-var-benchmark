@@ -134,7 +134,7 @@ Reading both tests at 5% separates real stationarity (ADF rejects, KPSS does not
 The variance ratio (Lo & MacKinlay) compares the variance of $`q`$-day changes with $`q`$ times the daily variance. It equals 1 for a random walk, drops below 1 under mean reversion (negative autocorrelation), and rises above 1 when prices trend:
 
 ```math
-VR(q) = \frac{\operatorname{Var}(\Delta X_t + \cdots + \Delta X_{t-q+1})}{q \operatorname{Var}(\Delta X_t)} \approx 1 + 2\sum_{j=1}^{q-1}\left(1 - \frac{j}{q}\right)\hat{\rho}(j)
+VR(q) = \frac{\mathrm{Var}(\Delta X_t + \dots + \Delta X_{t-q+1})}{q \cdot \mathrm{Var}(\Delta X_t)} \approx 1 + 2\sum_{j=1}^{q-1}\left(1 - \frac{j}{q}\right)\hat{\rho}(j)
 ```
 
 The test statistic $`z^*`$ is robust to heteroskedasticity, which matters here because volatility changes so much across regimes.
